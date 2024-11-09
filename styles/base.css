@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+
+
+:root {
+    --maincolor: #46fe39;
+    --othermaincolor: #1b0a99;
+    --accentcolor: #F1FFE7;
+    --bgcolor: #535067;
+    color: var(--othermaincolor);
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+    --font:'Alumni Sans Pinstripe', sans-serif;
+  }  
+
+
+body {
+	font-family: var(--font)
+}
+
+main {
+	margin: 0 auto;
+}
+
+footer{
+    margin-top: 100;
+    color: var(--maincolor);
+}
+
+
+
+
+header {
+	background-color: var(--accentcolor);
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid var(--othermaincolor)(0, 0, 0, 0.1);
+}
+
+header,
+main {
+    background-color: var(--bgcolor);
+	margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+nav {
+	background-color: var(--othermaincolor);
+	margin: 0 auto;
+	max-height: 800px;
+    display: grid;
+    columns: 4;
+    margin-bottom: 1rem;
+}
+
+
+.card1 {
+	background-color: var(--accentcolor);
+grid-row: 1/2;
+grid-column: 1/2;
+border: 3px solid var(--othermaincolor);
+}
+
+.card2 {
+    background-color: var(--accentcolor);
+    grid-row: 2/3;
+    grid-column: 1/3;
+    border: 3px solid var(--othermaincolor);
+}
+
+.card3 {
+    background-color: var(--accentcolor);
+    grid-row: 2/3;
+    border: 3px solid var(--othermaincolor);
+}
+          
+
+nav a {
+	display: grid;
+	color: var(--accentcolor);
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+    grid-column: auto;
+    grid-row: 1;
+}
+
+.usflag {
+    width: 30%;
+    height: 30%;
+}
+
+nav a:hover {
+	text-decoration:overline;
+}
+
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}
