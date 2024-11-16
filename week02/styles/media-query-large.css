@@ -1,12 +1,28 @@
 
-@media screen and (min-width: 500px)
+@media only screen and (min-width: 500px){
 
-main {
-    grid-template-colums: 1fr 1fr; 
-    grid-gap: 1rem auto;
+
+header, main, footer{
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid #9d9db8;
+    padding: 1rem;
+    background-color: #8dc2fc;
 }
 
-header{
-    background-color: rgb(33, 0, 0);
-    color: rgb(201, 200, 253);
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+section{
+    padding: 1rem;
+    background-color: #ffcbcb;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 }
