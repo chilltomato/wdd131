@@ -14,6 +14,7 @@ body {
 }
 
 header {
+    display: flex;
 	background-color: var(--accentcolor);
 	display: grid;
 	grid-gap: 1rem;
@@ -22,6 +23,13 @@ header {
 	box-shadow: 0 0 30px #333;
 }
 
+section{
+    display: grid;
+}
+
+figure{
+    display: grid;
+}
 
 nav {
   background-color: var(--bgcolor);
@@ -45,6 +53,7 @@ main {
     color: VAR(--maincolor);
     align-items: center;
     align-self: center;
+    display: grid;
     }
 
 
@@ -53,11 +62,11 @@ main {
     content: "⫴";
 }
 
-#cheeseburger li{
+#cheeseburger::before{
     display: none;
 }
 
-#cheeseburger.show{
+#cheeseburger.show::before{
     display: block;
 }
 
