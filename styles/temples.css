@@ -53,15 +53,15 @@ main {
     content: "⫴";
 }
 
-.cheeseburger li{
-    font-size: 0;
+#cheeseburger li{
     display: none;
 }
-.show cheeseburger{
-    font-size: 10;
+
+#cheeseburger.show{
     display: block;
 }
 
 #hamburger.show::before{
     content: "X";
 }
+
