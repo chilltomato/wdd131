@@ -14,9 +14,8 @@ body {
 }
 
 header {
-    display: flex;
+    display: grid;
 	background-color: var(--accentcolor);
-	display: grid;
 	grid-gap: 1rem;
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -38,7 +37,6 @@ nav {
 
 nav a{
     color: var(--othermaincolor);
-    display: block;
     }
 
 
@@ -62,11 +60,11 @@ main {
     content: "⫴";
 }
 
-#cheeseburger::before{
+#cheeseburger{
     display: none;
 }
 
-#cheeseburger.show::before{
+#cheeseburger.show{
     display: block;
 }
 

@@ -1,4 +1,4 @@
-const cheeseburger = document.querySelector('.cheeseburger')
+const cheeseburger = document.querySelector('#cheeseburger')
 const hamburger = document.querySelector('#hamburger');
 
 hamburger.addEventListener('click', () => {
