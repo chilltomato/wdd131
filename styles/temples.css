@@ -22,7 +22,7 @@ header {
 	box-shadow: 0 0 30px #333;
 }
 
-section{
+div{
     display: grid;
 }
 
@@ -55,6 +55,10 @@ main {
     }
 
 
+
+#img-grid{
+    display: grid;
+}
 
 #hamburger::before{
     content: "⫴";

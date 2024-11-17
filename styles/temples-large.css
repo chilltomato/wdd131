@@ -1,34 +1,22 @@
-
-
-
-@media (min-width: 320) {
-    .img-grid{
+@media (max-width: 320px) {
+    #img-grid{ 
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 2rem;
-        justify-items: center;
-        width: 100%;
     }
     
 }
 
-@media (min-width: 640) {
+@media (max-width: 640px) {
     /* styles for browsers larger than 640px; */
-    .img-grid{
+    #img-grid{
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
-        justify-items: center;
-        width: 100%;
     }
 
 }
 
-@media (min-width: 960px) {
+@media (max-width: 960px) {
     /* styles for browsers larger than 960px; */
-    .img-grid{
+    #img-grid{
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 2rem;
-        justify-items: center;
-        width: 100%;
     }
 
 }
