@@ -3,10 +3,9 @@
     --othermaincolor: #002057;
     --accentcolor: #ffe7e7;
     --bgcolor: #e9bcb5;
-    box-sizing: border-box;
     --font:'Alumni Sans Pinstripe', sans-serif;
     }  
-
+    
 
 body {
     font-family: var(--font); 
