@@ -141,7 +141,6 @@ main{
 }
 
 .hero{
-justify-self: none;
 grid-column: 1/6;
 grid-row: 1/6;
 z-index: 1;
