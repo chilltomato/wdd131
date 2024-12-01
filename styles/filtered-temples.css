@@ -1,0 +1,77 @@
+:root {
+    --maincolor: #350098;
+    --othermaincolor: #002057;
+    --accentcolor: #ffe7e7;
+    --bgcolor: #e9bcb5;
+    --font:'Alumni Sans Pinstripe', sans-serif;
+    }  
+    
+
+body {
+    font-family: var(--font); 
+    background-color: var(--bgcolor);
+}
+
+header {
+    display: grid;
+	background-color: var(--accentcolor);
+	grid-gap: 1rem;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 30px #333;
+}
+
+div{
+    display: grid;
+}
+
+figure{
+    display: grid;
+}
+
+nav {
+  background-color: var(--bgcolor);
+  color: var(--othermaincolor);
+}
+
+nav a{
+    color: var(--othermaincolor);
+    }
+
+
+nav a:hover{
+    color: var(--accentcolor);
+    text-decoration: underline double;
+    background-color: var(--maincolor);
+    }
+
+main {
+    max-width: 1000px;
+    color: VAR(--maincolor);
+    align-items: center;
+    align-self: center;
+    display: flex;
+    }
+
+
+
+#img-grid{
+    display: grid;
+}
+
+#hamburger::before{
+    content: "⫴";
+}
+
+#cheeseburger{
+    display: none;
+}
+
+#cheeseburger.show{
+    display: block;
+}
+
+#hamburger.show::before{
+    content: "X";
+}
+

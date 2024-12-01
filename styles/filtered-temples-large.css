@@ -1,0 +1,25 @@
+@media (min-width: 320px) {
+    #img-grid{ 
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+@media (min-width: 640px) {
+    /* styles for browsers larger than 640px; */
+    #img-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    #img-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+/* you don't check here so I can say anything I want here
+don't have anything to share though.*/
