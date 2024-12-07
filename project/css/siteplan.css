@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Galindo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+:root{
+    --headingfont: "Bungee Inline";
+    --paragraphfont: 'Galindo', sans-serif;
+}
+
+.autumn {
+    --color1: #4F5D2F;
+    --color2: #EF2917;
+    --color3: #DDA448;
+    --color4: #632B30;
+    background-color: var(--color4);
+}
+.winter {
+    --color1: #B1F8F2;
+    --color2: #87919E;
+    --color3: #28464B;
+    --color4: #EAFDCF;    
+    background-color: var(--color4);
+}
+.summer {
+    --color1: #D6FF79;
+    --color2: #75DDDD;
+    --color3: #FF8C42;
+    --color4: #1C77C3;
+    background-color: var(--color4);
+}
+.spring {
+    --color1: #CAA8F5;
+    --color2: #231123;
+    --color3: #B0228C;
+    --color4: #FCA17D;
+    background-color: var(--color4);
+}
+
+
+h1 {
+    color: var(--color3);
+    font-family: var(--headingfont);
+}
+
+p {
+    color: var(--color2);
+    font-family: var(--paragraphfont);
+}
+
+
+.color-scemes{
+    background-color: white;
+    height: 30%;
+}
+.color1{
+    background-color: var(--color1);
+    color: white;
+    width: 10%;
+    height: 20%;    
+    text-align: center;
+    margin-left: 50px;
+}
+
+.color2{
+    background-color: var(--color2);
+    color: white;
+    width: 10%;
+    height: 20%;    
+    text-align: center;
+    margin-left: 50px;
+}
+
+.color3{
+    background-color: var(--color3);
+    color: white;
+    width: 10%;
+    height: 20%;    
+    text-align: center;
+    margin-left: 50px;
+}
+
+.color4{
+    background-color: var(--color4);
+    color: black;
+    width: 10%;
+    height: 20%;    
+    text-align: center;
+    margin-left: 50px;
+}
