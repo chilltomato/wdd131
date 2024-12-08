@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="scripts/fourm.js" defer></script>
+    <link type="text/css" rel="stylesheet" href="styles/fourms.css">
+    <meta charset="utf-8">
+    <script src="scripts/getdates.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals Fourm</title>
+    <meta name="description" content="this is a WDD 131 - Dynamic Web Fundamentals Fourm">
+    <meta name="author" content="zach">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <form methood="get" action="review.html" class="review">
+            <fieldset>
+                <legend>product name</legend>
+                <label>  
+                 <select name="name" required>
+                     <option value="">Select A Product</option>
+                    </select>
+                </label>
+            </fieldset>
+          
+            
+            <fieldset>
+                <legend>overall rating</legend>
+                <label><input type="radio" name="rating" value="one">☆</label>
+                <label><input type="radio" name="rating" value="two">☆☆</label>
+                <label><input type="radio" name="rating" value="three">☆☆☆</label>
+                <label><input type="radio" name="rating" value="four">☆☆☆☆</label>
+                <label><input type="radio" name="rating" value="five">☆☆☆☆☆</label>
+            </fieldset>
+            
+            <label>Date of Installation  <input type="date" name="date installed" required></label>
+            <fieldset>
+                <legend> which feature did you find most useful in the product</legend>
+                <div> (check all that apply)</div>
+                <label><input type="checkbox" name="durrability" value="yes">Durrability</label>
+                <label><input type="checkbox" name="easeofuse" value="yes">Ease of Use</label>
+                <label><input type="checkbox" name="preformance" value="yes">Preformance</label>
+                <label><input type="checkbox" name="design" value="yes">Design</label>
+            </fieldset>
+            <fieldset>
+                <legend>Written review</legend>
+                <label>Your name<input type="text" name="fname"></label> 
+                <label>Your review<textarea id="review"></textarea></label>
+                <input type="submit" value="send review">
+            </fieldset>
+        </form>    
+    </main>
+    <footer>
+        <footer>
+            <p id="currentyear"></p>
+            <p id="copyrightyear"></p>
+            <p id="last_modified"></p>
+            <p>zach, florda</p>
+        </footer>    
+    </footer>
+</body>
