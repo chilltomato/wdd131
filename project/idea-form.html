@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>animal crossing site idea form</title>
+    <script src="scripts/seasons.js" defer></script>
+    <link rel="stylesheet" href="css/animal-crossing-idea.css">
+    <meta description="animal crossing fan site idea form">
+    <meta name="author" content="zach">
+</head>
+
+<body>
+    <header>
+        <section class="navagation">
+          <img src="images/Animal_Crossing_Series_Logo.png" alt="logo" class="logo">
+          <section class="navlink">
+                <nav>
+                    <a href="index.html">home</a>
+                    <a href="timeline.html">timeline</a>
+                    <a href="characters.html">characters</a>
+                    <a href="idea-form.html">idea form</a>
+                </nav>
+            </section>
+        </section>
+    </header>
+    <main>
+        <h1>Put your idea here</h1>
+        <form methood="get" action="idea-review.html" class="Idea">
+            <fieldset>
+                <legend>Idea likelihood</legend>
+                <label><input type="radio" name="likelihood" value="wish"> wishful thinking</label>
+                <label><input type="radio" name="likelihood" value="maybe">maybe gonna happen</label>
+                <label><input type="radio" name="likelihood" value="probaly">probaly gonna happen</label>
+                <label><input type="radio" name="likelihood" value="defenetly">defenetly happening</label>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Idea</legend>
+                <label>Your name<input type="text" name="fname"></label> 
+                <label>Your  Idea<textarea id="Idea"></textarea></label>
+                <input type="submit" value="send idea">
+            </fieldset>
+
+        </fieldset>
+    </form>    

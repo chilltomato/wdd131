@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Galindo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+:root{
+    --headingfont: "Bungee Inline";
+    --paragraphfont: 'Galindo', sans-serif;
+}
+
+.autumn {
+    --color1: #4F5D2F;
+    --color2: #EF2917;
+    --color3: #DDA448;
+    --color4: #632B30;
+    background-color: var(--color4);
+}
+.winter {
+    --color1: #B1F8F2;
+    --color2: #87919E;
+    --color3: #28464B;
+    --color4: #EAFDCF;    
+    background-color: var(--color4);
+}
+.summer {
+    --color1: #D6FF79;
+    --color2: #75DDDD;
+    --color3: #FF8C42;
+    --color4: #1C77C3;
+    background-color: var(--color4);
+}
+.spring {
+    --color1: #CAA8F5;
+    --color2: #231123;
+    --color3: #B0228C;
+    --color4: #FCA17D;
+    background-color: var(--color4);
+}
+
+header{
+    background-color: var(--color2);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navagation{
+    background-color: var(--color2);
+    display: grid;
+    grid-template-columns: 20%;
+}
+
+.logo{
+    grid-column: 1/5;
+    width: 10%;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.navlink{
+    justify-content: center;
+    justify-self: center;
+    grid-column: 2/5;
+    display: grid;
+    padding-bottom: 20px;
+}
+
+main{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 300px;
+    padding: 10px;
+}
+
+.hero{
+    grid-row: 1/4;
+    grid-column: 1/4;
+    justify-self: center;
+}
+
+.text{
+    grid-row: 2/4;
+    grid-column: 1/4;
+    padding: 10px;
+}
+
+h1 {
+    color: var(--color3);
+    font-family: var(--headingfont);
+}
+
+p {
+    color: var(--color2);
+    font-family: var(--paragraphfont);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.character{
+    display: grid;
+    grid-template-columns: 60px;
+    grid-template-rows: 60px;
+    background-color: var(--color1);
+    width: 170%;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.character-name{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.character-info{
+    grid-column: 1/3;
+    grid-row: 2/2;
+}
+
+.character-img{
+    grid-column: 3/3;
+    grid-row: 2/2;
+}

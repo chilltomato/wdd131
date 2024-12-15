@@ -51,13 +51,10 @@ main {
     align-items: center;
     align-self: center;
     display: flex;
-    }
+ }
 
 
 
-#img-grid{
-    display: grid;
-}
 
 #hamburger::before{
     content: "⫴";
